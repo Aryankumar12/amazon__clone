@@ -1,0 +1,46 @@
+.btn__video {
+     background-color: white;
+     color: black;
+     width: 100px;
+     height: 50px;
+     font-size: 1.2rem;
+     /* margin: 2%; */
+     font-weight: 500;
+     transition: .2s all ease;
+     border: none;
+}
+button:hover{
+   color: yellow;
+    background-color: brown;
+}
+.product__video{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: flex-end; */
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-height: 400px;
+    min-width: 100px;
+    background-color: rgb(0, 0, 0);
+}
+.product__info__for__video{
+    color: white;
+font-weight: 700;
+    font-size: 2rem;
+}
+
+.video__right{
+    margin-left: 6%;
+    margin-bottom: 5%;
+   
+}
+
+.product__rating{
+    margin: 3px 0 10px 0;
+}
